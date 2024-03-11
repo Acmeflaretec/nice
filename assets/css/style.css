@@ -36,3 +36,17 @@ width: 170px;
     }
 }
 
+.p-img{
+  height: 340px;
+  width: 170px;
+  
+  }
+  @media only screen and (max-width: 768px) {
+  
+    .p-img{
+      height: 500px;
+      width: 140px;
+      
+      }
+  }
+  
