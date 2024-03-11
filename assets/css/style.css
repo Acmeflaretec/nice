@@ -29,6 +29,10 @@ width: 170px;
 }
 @media only screen and (max-width: 768px) {
 
-
+  .f-img{
+    height: 500px;
+    width: 140px;
+    
+    }
 }
 
