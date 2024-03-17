@@ -129,9 +129,33 @@ a {
 	font-family: 'FontAwesome';
 }
 /* Banner Style */
-.banner {
+.bhome {
 	margin-top: 50px;
-	background-image: url(../images/banner/1.jpg);
+	background-image: url(../images/banner/6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: center center;
+}
+.babout {
+	margin-top: 50px;
+	background-image: url(../images/banner/5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: top;
+}
+.bproduct {
+	margin-top: 50px;
+	background-image: url(../images/banner/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: top;
+}
+.bfactory {
+	margin-top: 50px;
+	background-image: url(../images/banner/7.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 150px 0px;
