@@ -187,4 +187,20 @@ h1.white {
 }
 
 
+/* Adjust line height for mobile devices */
+@media only screen and (max-width: 767px) {
+  .welcome-home{
+    padding: 20px;
+  }
+  .welcome-home h1 {
+    line-height: 1.2; /* Adjust as needed */
+  }
+}
+
+/* Ensure the image is responsive */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  
+}
 
