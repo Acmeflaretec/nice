@@ -226,7 +226,71 @@ h1.white {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
   }
+/* ad */
 
-  
+.outlet-support-box {
+  background-color: #ffc0cb; /* Pink background */
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  margin: 20px auto; /* Centered margin */
+  max-width: 600px; /* Maximum width of the box */
+  animation: slideIn 1s ease-in-out; /* Slide-in animation */
+}
 
+.outlet-support-box h2 {
+  font-family: 'Montserrat', sans-serif; /* Title font */
+  color: #ff69b4; /* Pink color */
+  text-align: center; /* Centered title */
+  margin-bottom: 20px; /* Space below the title */
+}
 
+.outlet-support-box p {
+  color: #333; /* Dark gray color */
+  line-height: 1.6; /* Line spacing */
+}
+
+.outlet-support-box ul {
+  margin-top: 20px; /* Space above the list */
+}
+
+.outlet-support-box ul li {
+  list-style-type: disc; /* Bullet points for list items */
+  margin-left: 20px; /* Left margin for list items */
+}
+
+.hurry {
+  font-style: italic;
+  text-align: center;
+  color: #333; /* Dark gray color */
+  margin-top: 20px;
+}
+
+.enquiry-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff69b4; /* Pink color */
+  color: #fff; /* White color */
+  border: none;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enquiry-button:hover {
+  background-color: #ff1493; /* Darker pink color on hover */
+}
+
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
